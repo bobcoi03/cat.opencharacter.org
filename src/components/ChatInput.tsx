@@ -66,7 +66,7 @@ const ChatInput: React.FC<ChatInputProps> = ({ onSendMessage, disabled = false }
           </button>
         </div>
         <div className="text-center text-[8px] text-gray-500 mt-2">
-          CatGPT may produce inaccurate information because it&apos;s just a cat saying meow
+          CatGPT may produce inaccurate information because it&apos;s just a cat saying meow. Check out <a href="https://opencharacter.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">OpenCharacter</a> for more characters.
         </div>
       </form>
     </div>
