@@ -29,7 +29,7 @@ const ChatInput: React.FC<ChatInputProps> = ({ onSendMessage, disabled = false }
             disabled={disabled}
             rows={1}
             className="w-full py-3 px-4 pr-12 rounded-2xl border-0 bg-white focus:outline-none resize-none"
-            style={{ minHeight: '56px', maxHeight: '200px' }}
+            style={{ minHeight: '80px', maxHeight: '200px' }}
             onKeyDown={(e) => {
               if (e.key === 'Enter' && !e.shiftKey) {
                 e.preventDefault();
@@ -65,7 +65,7 @@ const ChatInput: React.FC<ChatInputProps> = ({ onSendMessage, disabled = false }
             </svg>
           </button>
         </div>
-        <div className="text-center text-xs text-gray-500 mt-2">
+        <div className="text-center text-[8px] text-gray-500 mt-2">
           CatGPT may produce inaccurate information because it&apos;s just a cat saying meow
         </div>
       </form>
